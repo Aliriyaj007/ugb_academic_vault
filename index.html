@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="UGB Academic Vault - Academic Resources Portal for University of Gourbanga students">
+  <meta name="keywords" content="UGB, University of Gourbanga, Academic, Resources, Study Materials">
+  <meta name="author" content="aliriyaj007">
+  <title>UGB Academic Vault | University of Gourbanga</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Material Icons -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <!-- Favicon -->
+  <link rel="icon"
+    href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎓</text></svg>">
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <!-- Splash Screen -->
+  <div id="splashScreen" class="splash-screen">
+    <div class="splash-content">
+      <span class="material-icons splash-icon">school</span>
+      <h1 class="splash-title">UGB Academic Vault</h1>
+      <p class="splash-subtitle">University of Gourbanga</p>
+    </div>
+  </div>
+
+  <!-- Navigation Drawer -->
+  <nav id="navDrawer" class="nav-drawer">
+    <div class="drawer-header">
+      <span class="material-icons close-btn" id="closeDrawer">close</span>
+    </div>
+    <ul class="drawer-menu">
+      <li class="drawer-item" data-action="home">
+        <span class="material-icons">home</span>
+        <span>Home</span>
+      </li>
+      <li class="drawer-item" data-action="about">
+        <span class="material-icons">info</span>
+        <span>About</span>
+      </li>
+      <li class="drawer-item" data-action="privacy">
+        <span class="material-icons">shield</span>
+        <span>Privacy Policy</span>
+      </li>
+      <li class="drawer-item" data-action="disclaimer">
+        <span class="material-icons">warning</span>
+        <span>Disclaimer</span>
+      </li>
+      <li class="drawer-item" data-action="download">
+        <span class="material-icons">download</span>
+        <span>Download App</span>
+      </li>
+    </ul>
+  </nav>
+
+  <!-- Drawer Overlay -->
+  <div id="drawerOverlay" class="drawer-overlay"></div>
+
+  <!-- Main App -->
+  <div id="mainApp" class="main-app">
+    <!-- App Bar -->
+    <header class="app-bar">
+      <span class="material-icons menu-btn" id="menuBtn">menu</span>
+      <h1 class="app-title">UGB Academic Vault</h1>
+      <span class="material-icons theme-toggle" id="themeToggle" title="Toggle dark mode">dark_mode</span>
+      <span class="material-icons app-icon">school</span>
+    </header>
+
+    <!-- Header Section -->
+    <section class="header-section">
+      <span class="material-icons header-icon">school</span>
+      <h2 class="header-title">University of Gourbanga</h2>
+      <p class="header-subtitle">Academic Resources Portal</p>
+    </section>
+
+    <!-- Main Content -->
+    <main class="main-content">
+      <!-- Section Cards -->
+      <article class="section-card"
+        data-url="https://drive.google.com/drive/folders/1KztwRHtTgySQO2g_HW2qbCB41qqRtyu9?usp=drive_link">
+        <div class="card-icon">
+          <span class="material-icons">school</span>
+        </div>
+        <div class="card-content">
+          <h3 class="card-title">Courses</h3>
+          <p class="card-description">Access academic materials, PYQ, notes & syllabus</p>
+        </div>
+        <span class="material-icons card-arrow">arrow_forward_ios</span>
+      </article>
+
+      <article class="section-card"
+        data-url="https://drive.google.com/drive/folders/1OVaeYMVIhKx6YVMo-zW57t8nRmtfhZNt?usp=drive_link">
+        <div class="card-icon">
+          <span class="material-icons">photo_library</span>
+        </div>
+        <div class="card-content">
+          <h3 class="card-title">Albums & Memories</h3>
+          <p class="card-description">Academic events, seminars & departmental activities</p>
+        </div>
+        <span class="material-icons card-arrow">arrow_forward_ios</span>
+      </article>
+
+      <article class="section-card"
+        data-url="https://drive.google.com/drive/folders/1eECfOih-UZSolCXAYvYerJi3HkARBj9j?usp=drive_link">
+        <div class="card-icon">
+          <span class="material-icons">upload_file</span>
+        </div>
+        <div class="card-content">
+          <h3 class="card-title">Upload Materials</h3>
+          <p class="card-description">Share your study materials for review</p>
+        </div>
+        <span class="material-icons card-arrow">arrow_forward_ios</span>
+      </article>
+
+      <article class="section-card"
+        data-url="https://docs.google.com/document/d/1-w7IwTLlnSsQpjm1vlSssO9i6xByFHI313k_Lk6huvc/edit?usp=sharing">
+        <div class="card-icon">
+          <span class="material-icons">groups</span>
+        </div>
+        <div class="card-content">
+          <h3 class="card-title">WhatsApp Groups</h3>
+          <p class="card-description">Join student discussion groups</p>
+        </div>
+        <span class="material-icons card-arrow">arrow_forward_ios</span>
+      </article>
+
+      <article class="section-card" data-url="https://forms.gle/sr9G4kgjBT66dWp8A">
+        <div class="card-icon">
+          <span class="material-icons">help_outline</span>
+        </div>
+        <div class="card-content">
+          <h3 class="card-title">Help & Contact</h3>
+          <p class="card-description">Get help and contact information</p>
+        </div>
+        <span class="material-icons card-arrow">arrow_forward_ios</span>
+      </article>
+    </main>
+
+    <!-- Footer -->
+    <footer class="app-footer">
+      <p>Made with <span class="material-icons heart-icon">favorite</span> by aliriyaj007</p>
+    </footer>
+  </div>
+
+  <!-- Modal Container -->
+  <div id="modal" class="modal">
+    <div class="modal-backdrop"></div>
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 id="modalTitle" class="modal-title"></h2>
+        <span class="material-icons modal-close">close</span>
+      </div>
+      <div id="modalBody" class="modal-body"></div>
+      <div class="modal-footer">
+        <p>Made with <span class="material-icons heart-icon">favorite</span> by aliriyaj007</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Loading Indicator -->
+  <div id="loadingIndicator" class="loading-indicator">
+    <div class="loading-spinner"></div>
+    <p>Opening...</p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
